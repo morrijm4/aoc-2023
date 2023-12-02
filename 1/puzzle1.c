@@ -35,7 +35,7 @@ int main(void) {
   char buf[BUF_SIZE];
   int total = 0;
 
-  fp = fopen("input1.txt", "r");
+  fp = fopen("input.txt", "r");
 
   if (fp == NULL) {
     perror("Error opening file");
