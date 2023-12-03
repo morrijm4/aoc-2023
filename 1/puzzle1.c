@@ -48,5 +48,6 @@ int main(void) {
 
   printf("%d", total);
 
+  fclose(fp);
   return 0;
 }

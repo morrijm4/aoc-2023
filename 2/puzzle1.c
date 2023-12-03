@@ -80,5 +80,6 @@ int main(void) {
 
   printf("Answer: %d\n", total);
 
+  fclose(fp);
   return 0;
 }
