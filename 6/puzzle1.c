@@ -84,6 +84,8 @@ int getRaces(Race *races) {
     races[raceCount++].distance = atoi(numberBuf);
   }
 
+  fclose(file_pointer);
+
   return 0;
 }
 
